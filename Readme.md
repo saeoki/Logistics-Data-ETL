@@ -10,50 +10,36 @@ ETL 프로세스를 통해 데이터웨어하우스에 데이터를 적재하고
 데이터 수집, 전처리, 클라우드 스토리지에 저장, 벌크 업데이트의 __ELT 프로세스__ 를 경험하고, <br>
 데이터웨어하우스에 적재된 데이터를 이용하여 __대시보드__ 를 생성합니다.<br><br>
 ## 📍기대효과
-<br/>
-<br/>
+<br><br>
 
 ------------
 
 ## 사용 데이터
-- `[서울시 생활물류 데이터](https://data.seoul.go.kr/dataList/OA-21866/S/1/datasetView.do)`
-<br/>
-- `[우편물류 데이터(시/도)](https://www.koreapost.go.kr/)`
-<br/>
-- `[우편물류 데이터(구/동)](https://kdx.kr/data/view/31129)`
-<br/>
-<br/>
+- `[서울시 생활물류 데이터](https://data.seoul.go.kr/dataList/OA-21866/S/1/datasetView.do)`<br>
+- `[우편물류 데이터(시/도)](https://www.koreapost.go.kr/)`<br>
+- `[우편물류 데이터(구/동)](https://kdx.kr/data/view/31129)`<br><br>
 ## 프로젝트 구조
-![image](https://github.com/Logistics-Devcourse/Data-ETL/assets/77157003/b4ec0647-5d8c-4744-bf37-bfcc24e1d15e)
-<br/>
+![image](https://github.com/Logistics-Devcourse/Data-ETL/assets/77157003/b4ec0647-5d8c-4744-bf37-bfcc24e1d15e) <br>
 1. API, 크롤링을 통한 사용데이터 수집
 2. 데이터 전처리 및 클라우드 스토리지 적재
 3. Google storage에 저장된 파일을 Snowflake로 벌크 업데이트
 4. 데이터 웨어하우스(Snowflake) 대시보드(Superset)에 연결
-5. 대시보드 생성 및 데이터 분석
-<br/>
-<br/>
-## 사용 기술
+5. 대시보드 생성 및 데이터 분석<br><br>
+## 사용 기술 및 프레임워크
 ### 데이터 수집 및 전처리
 - Python
 - BeautifulSoup
-- Pandas
-<br/>
+- Pandas<br>
 ### Storage
-- Google Storage
-<br/>
+- Google Storage<br>
 ### Data Warehouse
-- Snowflake
-<br/>
+- Snowflake<br>
 ### 시각화
-- Superset(preset.io)
-<br/>
+- Superset(preset.io)<br>
 ### 협업
 - GitHub
 - Mysql Workbench
-- Visual Studio Code
-<br/>
-<br/>
+- Visual Studio Code<br><br>
 
 -----------
 ## 역할
