@@ -49,7 +49,7 @@ ETL 프로세스를 통해 데이터웨어하우스에 데이터를 적재하고
 ### ETL 프로세스
 - 이서림 : `우편물류 데이터(구/동)` - 데이터 수집 및 전처리 후 클라우드 스토리지에 저장, 데이터 웨어하우스에 적재
 - 정세욱 : `지역별 인구 수` - 데이터 수집 및 전처리 후 클라우드 스토리지에 저장, 데이터 웨어하우스에 적재
-- 최은서 : `서울시 생활물류 데이터` - [데이터 수집 및 전처리 후 클라우드 스토리지에 저장 프로세스 스크립트 파일로 자동화](https://github.com/Logistics-Devcourse/Data-ETL/blob/main/AUTO_ETL_seoul_life_logistics.py) 및 데이터 웨어하우스에 적재<br>
+- 최은서 : `서울시 생활물류 데이터` - [(데이터 수집 및 전처리 후 클라우드 스토리지에 저장) 스크립트 파일로 자동화](https://github.com/Logistics-Devcourse/Data-ETL/blob/main/AUTO_ETL_seoul_life_logistics.py) 및 데이터 웨어하우스에 적재<br>
           `우편물류 데이터(시/도)` [데이터 수집 및 전처리 후 클라우드 스토리지에 저장](https://github.com/Logistics-Devcourse/Data-ETL/blob/main/Scrapping_sido_delivery_info.ipynb) 및 데이터 웨어하우스에 적재
 ### (공통)대시보드 생성 및 데이터 분석
 
