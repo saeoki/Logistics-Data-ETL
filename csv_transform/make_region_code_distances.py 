@@ -118,7 +118,7 @@ def main():
     region_coordinate_code.to_csv("region_codes.csv", index=False)
 
     distances_df = calculate_distance(region_coordinate_code)
-    distances_df.to_csv("distances.csv", index=False)
+    distances_df.to_csv("dataset/distances.csv", index=False)
 
 
 if __name__ == "__main__":
