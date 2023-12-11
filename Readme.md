@@ -20,7 +20,8 @@ Python, SQL 언어로 데이터를 전처리할 수 있습니다.<br>
 ## 📌사용 데이터
 - [서울시 생활 물류 데이터](https://data.seoul.go.kr/dataList/OA-21866/S/1/datasetView.do)<br>
 - [우편 물류 데이터(시/도)](https://www.koreapost.go.kr/)<br>
-- [우편 물류 데이터(구/동)](https://kdx.kr/data/view/31129)<br><br>
+- [우편 물류 데이터(구/동)](https://kdx.kr/data/view/31129)<br>
+- [행정구역(읍면동)별/5세별 주민등록인구(2011년~)](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B04005N&conn_path=I2)<br><br>
 ## 📌프로젝트 구조
 ![image](https://github.com/Logistics-Devcourse/Data-ETL/assets/77157003/b4ec0647-5d8c-4744-bf37-bfcc24e1d15e) <br>
 1. API, 크롤링을 통한 __데이터 수집 및 데이터 전처리__
